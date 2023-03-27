@@ -1,0 +1,383 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hr1",
+      "password": "hr001",
+      "role": "hr",
+      "status": "online",
+      "leaves": [
+        "2023-03-14",
+        "2023-03-17"
+      ],
+      "workingHours":35
+    },
+    {
+      "id": 2,
+      "username": "hr2",
+      "password": "hr002",
+      "role": "hr",
+      "status": "offline",
+      "leaves": [
+        "2023-03-15",
+        "2023-03-16"
+      ],
+      "workingHours":40
+    },
+    {
+      "id": 3,
+      "username": "emp1",
+      "password": "emp001",
+      "role": "emp",
+      "status": "online",
+      "leaves": [
+        "2023-03-13",
+        "2023-03-14",
+        "2023-03-17"
+      ],
+      "workingHours":37
+    },
+    {
+      "id": 4,
+      "username": "emp2",
+      "password": "emp002",
+      "role": "emp",
+      "status": "online",
+      "leaves": [
+        "2023-03-13"
+      ],
+      "workingHours":34
+    },
+    {
+      "id": 5,
+      "username": "emp3",
+      "password": "emp003",
+      "role": "emp",
+      "status": "offline",
+      "leaves": [
+        "2023-03-15",
+        "2023-03-17"
+      ],
+      "workingHours":35
+    },
+    {
+      "id": 6,
+      "username": "emp4",
+      "password": "emp004",
+      "role": "emp",
+      "status": "offline",
+      "leaves": [
+        "2023-03-16"
+      ],
+      "workingHours":36
+    },
+    {
+      "id": 7,
+      "username": "emp5",
+      "password": "emp005",
+      "role": "emp",
+      "status": "online",
+      "leaves": [
+        "2023-03-15",
+        "2023-03-17"
+      ],
+      "workingHours":40
+    },
+    {
+      "id": 8,
+      "username": "emp6",
+      "password": "emp006",
+      "role": "emp",
+      "status": "online",
+      "leaves": [
+        "2023-03-13",
+        "2023-03-14",
+        "2023-03-17"
+      ],
+      "workingHours":42
+    },
+    {
+      "id": 9,
+      "username": "emp7",
+      "password": "emp007",
+      "role": "emp",
+      "status": "offline",
+      "leaves": [
+        "2023-03-14"
+      ],
+      "workingHours":33
+    },
+    {
+      "id": 10,
+      "username": "emp8",
+      "password": "emp008",
+      "role": "emp",
+      "status": "online",
+      "leaves": [
+        "2023-03-13"
+      ],
+      "workingHours":40
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Zayn",
+      "age": 25,
+      "address": "Abc,7th Street",
+      "dob": "17-03-1998",
+      "image": "https://i.postimg.cc/59X3ZRHP/boy1.jpg",
+      "bloodgroup": "A+",
+      "gender": "male",
+      "email": "zayn@gmail.com",
+      "contact": "9032672416",
+      "department": "HR",
+      "designation": "HR Head",
+      "experience": "4 years"
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "age": 26,
+      "address": "A2,Cheloor apts",
+      "dob": "14-01-1995",
+      "image": "https://i.postimg.cc/NfCsDp36/girl1.jpg",
+      "bloodgroup": "B+",
+      "gender": "female",
+      "email": "priya@gmail.com",
+      "contact": "9272270421",
+      "department": "HR",
+      "designation": "HR asst",
+      "experience": "1 years"
+    },
+    {
+      "id": 3,
+      "name": "San",
+      "age": 23,
+      "address": "Xyz apts,No C2",
+      "dob": "11-05-2000",
+      "image": "https://i.postimg.cc/Pq1ZDyzT/boy2.jpg",
+      "bloodgroup": "B+",
+      "gender": "male",
+      "email": "san123@gmail.com",
+      "contact": "9072272445",
+      "department": "Software",
+      "designation": "Developer",
+      "experience": "2 years"
+    },
+    {
+      "id": 4,
+      "name": "Christina",
+      "age": 23,
+      "address": "12B,Skyline",
+      "dob": "07-08-2000",
+      "image": "https://i.postimg.cc/QtPPVYVb/girl2.jpg",
+      "bloodgroup": "O+",
+      "gender": "female",
+      "email": "christina@gmail.com",
+      "contact": "9872272496",
+      "department": "Software",
+      "designation": "Developer",
+      "experience": "2 years"
+    },
+    {
+      "id": 5,
+      "name": "John",
+      "age": 24,
+      "address": "7C,Cidbi",
+      "dob": "24-02-1995",
+      "image": "https://i.postimg.cc/y6PnJ1vW/boy3.jpg",
+      "bloodgroup": "B+",
+      "gender": "male",
+      "email": "john@gmail.com",
+      "contact": "9231672416",
+      "department": "Software",
+      "designation": "Tester",
+      "experience": "3 years"
+    },
+    {
+      "id": 6,
+      "name": "Althaf",
+      "age": 24,
+      "address": "Althaf Villa",
+      "dob": "06-03-1999",
+      "image": "https://i.postimg.cc/YCTSrv9J/boy4.jpg",
+      "bloodgroup": "A+",
+      "gender": "male",
+      "email": "althaf@gmail.com",
+      "contact": "9832372143",
+      "department": "Software",
+      "designation": "Developer",
+      "experience": "2 years"
+    },
+    {
+      "id": 7,
+      "name": "Siya",
+      "age": "24",
+      "address": "Capital Symphony",
+      "dob": "12-03-2000",
+      "image": "https://i.postimg.cc/T1493fBx/girl3.jpg",
+      "bloodgroup": "B+",
+      "gender": "female",
+      "email": "siya@gmail.com",
+      "contact": "9763456786",
+      "department": "Software",
+      "designation": "Tester",
+      "experience": "2 years"
+    },
+    {
+      "id": 8,
+      "name": "Angel",
+      "age": 27,
+      "address": "Moonlight apts",
+      "dob": "11-05-1993",
+      "image": "https://i.postimg.cc/8cm87Bvn/girl4.jpg",
+      "bloodgroup": "O+",
+      "gender": "female",
+      "email": "angel@gmail.com",
+      "contact": "9177272089",
+      "department": "Software",
+      "designation": "Developer",
+      "experience": "5 years"
+    },
+    {
+      "id": 9,
+      "name": "Sibin",
+      "age": 27,
+      "address": "Kohinoor villas",
+      "dob": "17-04-1993",
+      "image": "https://i.postimg.cc/ry3Bh3hN/boy5.jpg",
+      "bloodgroup": "B+",
+      "gender": "male",
+      "email": "sibin@gmail.com",
+      "contact": "9048165167",
+      "department": "Software",
+      "designation": "Tester",
+      "experience": "4 years"
+    },
+    {
+      "id": 10,
+      "name": "Neina",
+      "age": 22,
+      "address": "Gandhi Nagar",
+      "dob": "11-05-1999",
+      "image": "https://i.postimg.cc/Y0Q71L4T/girl5.jpg",
+      "bloodgroup": "AB+",
+      "gender": "female",
+      "email": "neina@gmail.com",
+      "contact": "9346274471",
+      "department": "Software",
+      "designation": "Developer",
+      "experience": "1 years"
+    },
+    {
+      "id": "11",
+      "name": "abcd",
+      "age": "",
+      "address": "",
+      "dob": "",
+      "image": null,
+      "bloodgroup": "",
+      "gender": "",
+      "email": "",
+      "contact": "",
+      "department": "",
+      "designation": "",
+      "experience": ""
+    }
+  ],
+  "leavedetails": [
+    {
+      "id": 1,
+      "type": "Casual",
+      "dofLeave": [
+        "20-03-2023"
+      ],
+      "reason": "Personal reason",
+      "leaveStatus": "pending"
+    },
+    {
+      "id": 2,
+      "type": "Sick",
+      "dofLeave": [
+        "22-03-2023"
+      ],
+      "reason": "Medical appointment",
+      "leaveStatus": "approved"
+    },
+    {
+      "id": 3,
+      "type": "Sick",
+      "dofLeave": [
+        "22-03-2023",
+        "23-03-2023"
+      ],
+      "reason": "Medical appointment",
+      "leaveStatus": "approved"
+    },
+    {
+      "id": 4,
+      "type": "Casual",
+      "dofLeave": [
+        "20-03-2023"
+      ],
+      "reason": "Personal reason",
+      "leaveStatus": "approved"
+    },
+    {
+      "id": 5,
+      "type": "Casual",
+      "dofLeave": [
+        "21-03-2023",
+        "22-03-2023"
+      ],
+      "reason": "Personal reason",
+      "leaveStatus": "Rejected"
+    },
+    {
+      "id": 6,
+      "type": "Sick",
+      "dofLeave": [
+        "23-03-2023"
+      ],
+      "reason": "Hospital emergency",
+      "leaveStatus": "Approved"
+    },
+    {
+      "id": 7,
+      "type": "Casual",
+      "dofLeave": [
+        "24-03-2023"
+      ],
+      "reason": "Personal reason",
+      "leaveStatus": "pending"
+    },
+    {
+      "id": 8,
+      "type": "Sick",
+      "dofLeave": [
+        "24-03-2023"
+      ],
+      "reason": "medical appointment",
+      "leaveStatus": "pending"
+    },
+    {
+      "id": 9,
+      "type": "Sick",
+      "dofLeave": [
+        "20-03-2023"
+      ],
+      "reason": "Medical Appointment",
+      "leaveStatus": "rejected"
+    },
+    {
+      "id": 10,
+      "type": "Casual",
+      "dofLeave": [
+        "21-03-2023"
+      ],
+      "reason": "Personal reason",
+      "leaveStatus": "approved"
+    }
+  ]
+}

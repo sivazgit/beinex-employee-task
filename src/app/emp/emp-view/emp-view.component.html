@@ -1,0 +1,102 @@
+<!-- Employee View-->
+<section class="py-5">
+    <div class="head">
+        <div class="heading">
+            <h2>ZYN Employee portal</h2></div>
+    <div class="home">
+        <a href="/hrhome">Home</a>
+    </div>
+        </div>
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            <div *ngFor="let employee of employeeData" class="col mb-5">
+                <div class="card h-100">
+                    <!-- employee image-->
+                    <img class="card-img-top" style="width:100% ; height: 270px;" src="{{employee.image}}" alt="..." />
+                    <!-- employee details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+
+                            <!-- Employee name-->
+                            <h5 class="fw-bolder">Name:{{employee.name}}</h5>
+
+
+
+                            <!-- employee id -->
+                            <div class="details">
+                                <div id="id"><label for="">Employee Id:</label></div>
+                                <div id="idval">{{employee.id}}</div>
+                            </div>
+
+                            <!--employee department  -->
+                            <div class="details">
+                                <div id="dep"><label for="">Department:</label></div>
+                                <div id="depval">{{employee.department}}</div>
+                            </div>
+
+                            <!-- employee designation -->
+                            <div class="details">
+                                <div id="desig"><label for="">Designation:</label></div>
+                                <div id="desigval">{{employee.designation}}</div>
+                            </div>
+
+                            <!-- Employee Age-->
+                            <!-- <div class="details">
+                                <div id="age"><label for="">Age:</label></div>
+                                <div id="ageval">{{employee.age}}</div>
+                            </div> -->
+
+                            <!--Employee Address  -->
+                            <!-- <div class="details">
+                                <div id="address">
+                                    <label for="">Address:{{employee.address}}</label>
+                                </div>
+
+                            </div> -->
+                            <!-- Employee DOB -->
+                            <!-- <div class="details">
+                                <div id="dob"><label for="">Date of Birth:</label></div>
+                                <div id="dobval">{{employee.dob}}</div>
+                            </div> -->
+
+                            <!-- employee bloodgroup -->
+                            <!-- <div class="details">
+                                <div id="bg"><label for="">Blood Group:</label></div>
+                                <div id="bgval">{{employee.bloodgroup}}</div>
+                            </div> -->
+
+                            <!--employee gender  -->
+                            <!-- <div class="details">
+                                <div id="gen"><label for="">Gender:</label></div>
+                                <div id="genval">{{employee.gender}}</div>
+                            </div> -->
+
+                            <!-- <div class="details">
+                                <div id="email"><label for="">Email:</label></div>
+                                <div id="emailval">{{employee.email}}</div>
+                            </div> -->
+
+                            <!-- <div class="details">
+                                <div id="contact"><label for="">Contact:</label></div>
+                                <div id="contactval">{{employee.contact}}</div>
+                            </div> -->
+
+                            
+
+                        </div>
+                    </div>
+                    <!-- emp actions-->
+                    <div class="buttons">
+                        <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            <div class="text-center"><a class="btn btn-outline-dark mt-auto"
+                                    href="/empby/{{employee.id}}">View More</a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

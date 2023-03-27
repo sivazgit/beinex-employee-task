@@ -1,0 +1,12 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.bar{
+    
+    .chart-container{
+        border: 1px solid orangered;
+        display: flex;
+        width:520px;
+    }
+}

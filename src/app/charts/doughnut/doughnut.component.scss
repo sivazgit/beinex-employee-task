@@ -1,0 +1,12 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+ 
+.doughnut{
+  border: 1px solid cadetblue;
+  border-radius: 10px;
+   width:350px;
+  display: flex;
+  
+}

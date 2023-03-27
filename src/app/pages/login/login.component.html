@@ -1,0 +1,29 @@
+
+<div class="bg">
+  <div class="container">
+  <div class="border-div">
+      <div class="form-div">
+          <h4>Login ZYN Companies</h4>
+         <form [formGroup]="loginForm" (ngSubmit)="login()">
+            <div class="mb-3">
+              <!-- <i class="fa-sharp fa-solid fa-user"></i> -->
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter username" formControlName="username" name="username" pattern="^[a-z0-9_-]{2,4}$"> 
+              <div class="warning" *ngIf="this.loginForm.get('username')?.touched && this.loginForm.get('username')?.invalid">Please enter a valid username!</div>
+            </div>
+            <div class="mb-3">
+              <!-- <i class="fa-solid fa-key"></i> -->
+              <input type="password" placeholder="Enter password" class="form-control" id="exampleInputPassword1" formControlName="password" name="password" >
+            </div>
+          <div class="error">{{errorMsg}}</div>
+            <div class="mb-3 form-check">
+            </div>
+
+<!-- <a href='/emphome/{{userData.id}}'> -->
+  <button type="submit" class="btn btn-primary">Submit</button>
+
+<!-- </a> -->
+         </form>
+      </div>
+  </div>
+  </div>
+</div>

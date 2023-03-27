@@ -1,0 +1,40 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+.table-div{
+    display: flex;
+    // flex-wrap: wrap;
+
+    .table{
+        background:linear-gradient(beige,lightgreen);
+       
+        width:100%;
+        th,td{
+            border: 2px solid grey;
+            
+        }
+        
+    }
+
+
+    .add-emp{
+       margin: auto;
+        h6{
+            font-weight: bold;
+            text-align: center;
+        }
+        button{
+            margin: auto;
+            display:block;
+            width:150px;
+            height:35px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        border:1px solid black;
+        border-radius: 10px;        
+        width:40%;
+       
+    }
+}

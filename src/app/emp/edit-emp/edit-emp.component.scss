@@ -1,0 +1,54 @@
+@import '/src/assets/scss/variables';
+@import '/src/assets/scss/mixins';
+@import '/src/assets/scss/base';
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    
+    form{
+        .button{
+            margin-left:auto;
+            margin-right:auto;
+
+        }
+   
+    .form-control{
+        width:300px;
+        border:1px solid navy;
+    
+   }
+    
+    #address{
+        width:300px;
+        height:100px;
+    }
+
+    .addform-div{
+        
+        display: flex;
+        flex-wrap: wrap;
+
+        .section-one{
+            padding-right:20px;
+            .inputs{
+                margin-top:10px;
+            }
+        }
+        
+        .section-two{
+            .inputs{
+                margin-top:7px;
+            select{
+                border: 1px solid navy;
+                border-radius:4px;
+                
+            }
+        }
+        }
+        
+    }
+}
+}

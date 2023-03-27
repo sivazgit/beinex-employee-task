@@ -1,0 +1,37 @@
+
+   <div class="container">
+<h3>Welcome...{{uname}}</h3>
+    <div class="leavestatus">
+
+    </div>
+    <a href="/empby/{{empDetails.id}}"><button class="btn btn-secondary">My Profile</button></a>
+
+
+    <H5 class="mt-5">My leave status</H5>
+    <table class="table table-light table-striped-columns">
+        <thead>
+            <tr>
+              <th scope="col">Data</th>
+              <th scope="col">Date of leave</th>
+              <th scope="col">Type</th>
+              <th scope="col">Reason for Leave</th>
+              <th scope="col">Leave status</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>{{leaveData.dofLeave}}</td>
+              <td>{{leaveData.type}}</td>
+              <td>{{leaveData.reason}}</td>
+              <td>{{leaveData.leaveStatus}}</td>
+            </tr>
+            </tbody>
+      </table>
+
+      <a href="">
+        <button class="btn btn-danger">Logout</button>
+      </a>
+   </div>    
+

@@ -1,0 +1,68 @@
+<div class="page-container">
+    <div class="row">
+        <div class="col-lg-2">
+            <!-- The sidebar -->
+            <div class="sidebar">
+                <a class="active" href="/hrhome">Home</a>
+                <a href="/empview">View Employees</a>
+                <a href="">Contact</a>
+                <a href="">About</a>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <H1>Welcome...{{uname}}</H1>
+            <h5>Active/Inactive employee status!</h5>
+            <app-doughnut></app-doughnut>
+        </div>
+        <div class="col-lg-5">
+               <a href="/gview">Click here to view the employee working status</a>
+        </div>
+    </div>
+
+    <!-- charts section -->
+    <div class="row">
+        <div class="col-5">
+
+        </div>
+        <div class="col-7">
+            <h5 id="barhead">Employee leave status by pastweek</h5>
+            <app-bar></app-bar>
+        </div>
+    </div>
+
+
+    <!-- <div class="row">
+        <div class="col-5">
+            <app-gauge></app-gauge>
+        </div>
+        <div class="col-5"></div>
+    </div> -->
+
+
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-10 mt-5">
+            <app-emp-list></app-emp-list>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-5"></div>
+        <div class="col-2">
+            <app-hr-info></app-hr-info>
+        </div>
+        <div class="col-5"></div>
+    </div>
+
+
+    <!-- container close  -->
+</div>
+<!-- <app-gchart></app-gchart> -->
+
+<!-- <app-doughnut></app-doughnut>
+<app-bar></app-bar>
+<app-gauge></app-gauge>
+<app-emp-list></app-emp-list> 
+ -->

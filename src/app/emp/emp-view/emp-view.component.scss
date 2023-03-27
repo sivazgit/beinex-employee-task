@@ -1,0 +1,56 @@
+// @import '/src/assets/scss/variables';
+// @import '/src/assets/scss/mixins';
+// @import '/src/assets/scss/base';
+
+.head{
+    display: flex;
+    .home{
+        margin-left: auto;
+        margin-right: 4px;
+        a{
+            color:purple;
+            font-weight: bold;
+            font-size: 21px;
+        }
+    }
+}
+section{
+    background:linear-gradient(cadetblue,cornflowerblue);
+.details{
+    display: flex;
+
+    #id{
+        color:mediumvioletred;
+        font-weight: bold;
+    }
+    #idval{
+        color:purple;
+        font-weight: bold;
+    }
+    #dep{
+        color:darkgreen;
+        font-weight: bold;
+    }
+    #depval{
+        color:brown;
+        font-weight:bold;
+    }
+    #desig{
+        color:crimson;
+        font-weight: bold;
+
+    }
+    #desigval{
+        color:midnightblue;
+        font-weight: bold;
+    }
+}
+
+#address{
+    text-align: left;
+}
+
+.buttons{
+    margin:auto;
+}
+}
